@@ -1,16 +1,42 @@
-### Hi there 👋
+# porfolio 👩🏻‍💻
+<details>
+<summary>Table of Contents</summary>
+<p>
 
-<!--
-**christinaexyou/christinaexyou** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+* [Class Projects](#class-projects)
+* [Work Projects](#work-projects)
 
-Here are some ideas to get you started:
+</p>
+</details>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## **Class Projects**
+
+## [MA 575: Linear Models - *Analyzing Spotify Music Popularity from 2010 to 2019*](https://github.com/christinaexyou/spotify-music-popularity.git)
+* Analyzed data for top Spotify songs from 2010 and 2019 and determined which factors  have the most influence over the popularity of a song
+
+## **Work Projects**
+
+## Red Hat - *Using Open Source to Realize Sensor Failure Detection and Prediction*  
+### [Edge Services](https://github.com/Enterprise-Neurosystem/edge-services)
+
+* Demonstrated data storage for the Red Hat OpenShift Data Science (RHODS) workshop at the IEEE Design Methodologies workshop as many companies do so for historical purpsoses
+* Created connection pooling methods for an AWS PostgreSQL database, mitigating the latency issue with normal database connections
+* Created querying methods to execute and return queries on the anomaly table in the database which stores sensor data with anomalies
+
+
+### [Edge Synthetic Data Generator](https://github.com/Enterprise-Neurosystem/edge-services)
+* Experimented with doppelGANgers (dGANS), a general adverserial network, to generate synthetic time series sensor data with anomalies to train our model with, as there is a lack of sensor data in the real world
+* Tested between two different pre-trained models to determine which generates synthetic data that is most similar to the real world synthetic data it is trained on
+* Created workshop instructions for generating synthetic data so that little individuals with little experience can reproduce our results
+
+
+
+## Red Hat - *Best Practices for Creating Custom JupyterHub Notebook Images*
+RHODS comes with curated JupyterHub Notebook Images as well as the option for customers to define their own custom images. However, the learning curve is steep as it requires wide breadth of knowledge in OpenShift and various Python packages. I experimented with three different methods and created documentation for them with the goal of lowering the learning curve:
+
+### [1. Building on Your Laptop and Storing In an Image Registry](https://github.com/rh-aiservices-bu/Custom-Notebook-Images-Best-Practices)
+
+###  2. Building on the OpenShift Cluster and Storing Only in Cluster (WIP)
+
+###  3. Building on the OpenShift Cluster, Stored In an Image Registry with a Pipleline to Make Updates (WIP)
+
