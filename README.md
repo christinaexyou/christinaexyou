@@ -24,13 +24,6 @@
 * Created querying methods to execute and return queries on the anomaly table in the database which stores sensor data with anomalies
 
 
-### [Edge Synthetic Data Generator](https://github.com/Enterprise-Neurosystem/edge-services)
-* Experimented with doppelGANgers (dGANS), a general adverserial network, to generate synthetic time series sensor data with anomalies to train our model with, as there is a lack of sensor data in the real world
-* Tested between two different pre-trained models to determine which generates synthetic data that is most similar to the real world synthetic data it is trained on
-* Created workshop instructions for generating synthetic data so that little individuals with little experience can reproduce our results
-
-
-
 ## Red Hat - *Best Practices for Creating Custom JupyterHub Notebook Images*
 RHODS comes with curated JupyterHub Notebook Images as well as the option for customers to define their own custom images. However, the learning curve is steep as it requires wide breadth of knowledge in OpenShift and various Python packages. I experimented with three different methods and created documentation for them with the goal of lowering the learning curve:
 
